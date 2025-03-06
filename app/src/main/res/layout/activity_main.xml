@@ -6,12 +6,31 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/appName"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="ALPHA"
         android:textSize="45sp"
-        android:textStyle="italic"
-        ></TextView>
+        android:textStyle="italic"></TextView>
+
+
+    <EditText
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_marginTop="50px"
+        android:hint="Username"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPersonName"></EditText>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_marginTop="50px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit"></Button>
 
 
     <!-- Your other views will go here -->
